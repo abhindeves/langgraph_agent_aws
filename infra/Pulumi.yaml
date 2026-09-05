@@ -1,0 +1,8 @@
+name: langgraph-agent-infra
+runtime:
+  name: python
+  options:
+    virtualenv: ../.venv
+description: Production AWS ECS Fargate infrastructure for LangGraph Agent
+backend:
+  url: s3://abhin-langgraph-pulumi-state-ap-south-1
