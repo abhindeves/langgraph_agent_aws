@@ -28,3 +28,4 @@ infra/.pulumi/
 .DS_Store
 .vscode/
 .idea/
+infra/Pulumi.*.yaml

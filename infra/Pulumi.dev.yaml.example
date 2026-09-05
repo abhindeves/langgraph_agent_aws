@@ -1,0 +1,7 @@
+encryptionsalt: v1:placeholder
+config:
+  aws:region: ap-south-1
+  # Set via: pulumi config set --secret langgraph-agent-infra:openai_api_key "your-key"
+  # Set via: pulumi config set --secret langgraph-agent-infra:langfuse_secret_key "your-key"
+  # Set via: pulumi config set langgraph-agent-infra:langfuse_public_key "pk-lf-..."
+  # Set via: pulumi config set langgraph-agent-infra:langfuse_base_url "https://jp.cloud.langfuse.com"
